@@ -1,6 +1,8 @@
 # SVEN: Security Hardening and Adversarial Testing for Code LLMs
 SVEN enables controlling LLMs to generate secure (for security hardening) or unsafe code (for adversarial testing), while maintaining functional correctness. It achieves this by learning continuous prompts (or prefixes) with specialized loss terms on our curated dataset. This repository contains SVEN's source code and trained prefixes, as well as training and evaluation data. For more technical details, check our [paper](https://arxiv.org/abs/2302.05319).
 
+[models are in here](https://huggingface.co/k1h0/25_7B_sven_prefix)
+
 ## Directory Structure
 The directory structure of this repository is shown as below:
 ```
